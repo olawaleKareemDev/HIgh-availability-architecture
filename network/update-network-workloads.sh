@@ -1,0 +1,1 @@
+aws cloudformation update-stack  --stack-name $1 --region us-east-2 --template-body file://$2  --parameters file://$3 --profile udacity-devops-config
